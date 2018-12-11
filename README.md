@@ -67,6 +67,13 @@ Jak upravit model?
 ==================
 Pro snadnou parametrizaci jsem použil Customizer, který není možné využít na thingiverse, protože tam neumí import externích souborů, ale s OpenSCADem funguje výborně:
 
+ručně:
 stáhněte si repositář
 otevřete soubor .scad
 upravte parametry, vygenerujte STL pro jednotlivé barvy
+
+poloautomaticky:
+stáhněte si repositář
+otevřete soubor .json
+upravte parametry
+spusťe skript generate.sh

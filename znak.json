@@ -1,0 +1,50 @@
+{
+    "parameterSets": {
+        "white": {
+            "delka_uchyceni": "14",
+            "hloubka": "2",
+            "hloubka_motivu": "0.4",
+            "prumer_spendliku": "1",
+            "selected_color": "white",
+            "spendlik": "false",
+            "vyska": "50"
+        },
+        "gold": {
+            "delka_uchyceni": "14",
+            "hloubka": "2",
+            "hloubka_motivu": "0.4",
+            "prumer_spendliku": "1",
+            "selected_color": "gold",
+            "spendlik": "false",
+            "vyska": "50"
+        },
+        "black": {
+            "delka_uchyceni": "14",
+            "hloubka": "2",
+            "hloubka_motivu": "0.4",
+            "prumer_spendliku": "1",
+            "selected_color": "black",
+            "spendlik": "false",
+            "vyska": "50"
+        },
+        "red": {
+            "delka_uchyceni": "14",
+            "hloubka": "2",
+            "hloubka_motivu": "0.4",
+            "prumer_spendliku": "1",
+            "selected_color": "red",
+            "spendlik": "false",
+            "vyska": "50"
+        },
+        "spendlik": {
+            "delka_uchyceni": "14",
+            "hloubka": "2",
+            "hloubka_motivu": "0.4",
+            "prumer_spendliku": "1",
+            "selected_color": "spendlik",
+            "spendlik": "false",
+            "vyska": "50"
+        }
+    },
+    "fileFormatVersion": "1"
+}
