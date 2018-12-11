@@ -26,7 +26,7 @@ Nastavení tiskárny -> Vlastní G-code -> G-code pro výměnu nástoroje: M600
 Nastavení tisku -> Vrstvy a perimetry -> Detekovat tenké zdi: ANO
 Nastavení tisku -> Multiple extruders -> Čistící věž -> Zapnout: NE
 
-Podložka -> Přidat: soubor intermediate/red
+Podložka -> Přidat: soubor output/red
 Klikněte na soubor
 Nastavení
 Load modifier -> přidejte ostatní soubory v pořadí gold, black, white
@@ -39,6 +39,8 @@ red: 4
 
 Pokud tisknete odznak:
 Pomocí Load modifer přidejte soubor "top", posuňte ho na konec seznamu a nastavte mu extruder 5.
+
+Otočte model o 180° kolem osy X, aby lev byl na podložce a byl zrcadlově otočený.
 
 Jak tisknout?
 =============
