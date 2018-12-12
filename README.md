@@ -19,7 +19,7 @@ V archivu naleznete soubory pro tisk odznaku výšky 5 cm a znaků vysokých 7 c
 
 ## Jak připravit model k tisku?
 
-Pokud máte tiskárnu Prusa MK3 nebo MK25, můžete použít připravené GCODE soubory a pokračovat částí [Jak vytisknout](#jak-tisknout)
+Pokud máte tiskárnu Prusa MK3 nebo MK25, můžete použít [připravené GCODE soubory](#připravené-gcode-soubory).
 
 Jinak si musíte poskládat model sami. Bohužel Slic3r neumí tak složité zadání z příkazové řádky, takže si musíte vše vyklikat ručně podle následujícího postupu pro Slic3r:
 
@@ -101,6 +101,20 @@ Pro snadnou parametrizaci jsem použil Customizer, který není možné využít
 3. upravte parametry
 4. spusťe skript generate.sh
 
+## Zajímavosti v projektu
+
+Všimněte si prosím následujících vyřešených zajímavých problémů:
+
+* Postupný převod z PDF to STL
+* Kombinace a úprava velikosti externích STL pomocí OpenSCADu
+* Nastavování parametrů přes Customizer v OpenSCADu
+* Dávkové spouštění OpenSCADu pro automatizované generování více souborů (json)
+* Automatické řízení výměny strun pro tiskárny bez podpory tisku z více filamentů
+* Vkládání objektu do modelu během tisku (využití M600, vložení špendlíku)
+* Tisk obrázků v dobré kvalitě rovnou na podložku
+
 ## Autor
 
 Jiří Kubíček
+
+vyrobeno jako pomůcka pro druhou třídu ZŠ
