@@ -1,6 +1,6 @@
 # 3D tisknutelný malý státní znak
 
-Připomeňte si sté výročí vzniku státu a vytiskněte si odznak s malým státním znakem.
+Připomeňte si sté výročí vzniku republiky a vytiskněte si odznak s malým státním znakem.
 
 ![ukazka tisku](ukazka.png "Ukazka tisku")
 
