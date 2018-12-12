@@ -2,6 +2,9 @@
 
 Připomeňte si sté výročí vzniku státu a vytiskněte si odznak s malým státním znakem.
 
+![ukazka tisku](ukazka.png "Ukazka tisku")
+
+
 Pro tisk budete potřebovat zavírací špendlík a čtyři barvy filamentu: bílou/stříbrnou, zlatou, červenou a červenou
 
 Barevný motiv se tiskne rovnou na podložku nejlépe ve dvou vrstvách. Pak několik vrstev červené na zpevnění a nakonec tiskneme uchycení zavíracího špendlíku.
