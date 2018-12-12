@@ -2,7 +2,7 @@
 
 Připomeňte si sté výročí vzniku republiky a vytiskněte si odznak s malým státním znakem.
 
-![ukazka tisku](ukazka.png "Ukazka tisku")
+![ukazka tisku](images/ukazka.png "Ukázka tisku")
 
 
 Pro tisk budete potřebovat zavírací špendlík a čtyři barvy filamentu: bílou/stříbrnou, zlatou, červenou a červenou
@@ -44,6 +44,19 @@ Pomocí Load modifer přidejte soubor "spendlik", posuňte ho na konec seznamu a
 
 Otočte model o 180° kolem osy Y, aby lev byl na podložce a byl zrcadlově otočený.
 
+## Připravené GCODE soubory
+
+### Prusa MK3
+* [Odznak 5 cm](output/odznak-50/odznak50_0.2mm_PLA_MK3.gcode)
+* [Znak 7 cm](output/znak-70/znak70_0.2mm_PLA_MK3.gcode)
+* [Znak 15 cm](output/znak-150/odznak150_0.2mm_PLA_MK3.gcode)
+
+### Prusa MK25
+* [Odznak 5 cm](output/odznak-50/odznak50_0.2mm_PLA_MK2.5.gcode
+)
+* [Znak 7 cm](output/znak-70/znak70_0.2mm_PLA_MK2.5.gcode)
+* [Znak 15 cm](output/znak-150/odznak150_0.2mm_PLA_MK2.5.gcode)
+
 ## Jak tisknout?
 
 Nastavte dorovnání osy Z o něco níže než obvykle, aby se první vrstva na podložce hezky slila.
@@ -58,11 +71,13 @@ Zaveďte zlatou strunu a spusťe tisk. Postupně budete vyzváni k výměně str
 7. bílá
 8. červená
 
-Pokud tisknete odznak, tiskárna se nyní zastaví a čeká na výměnu struny. Tento krok ale využijeme na výměnu barvy, ale na vložení špendlíku. Opatrně vložte neotevírací část špendlíku do vytištěné drážky a dejte pozor, aby žádná část špendlíku nebyla výše, než je nejvyšší vrstva tisku. Zasuňte znovu červený filament a zatiskněte špendlík do modelu.
+Pokud tisknete odznak, tiskárna se nyní zastaví a čeká na výměnu struny. Tento krok nevyužijeme na výměnu barvy, ale na vložení špendlíku. Opatrně vložte neotevírací část špendlíku do vytištěné drážky a dejte pozor, aby žádná část špendlíku nebyla výše, než je nejvyšší vrstva tisku. Zasuňte znovu červený filament a zatiskněte špendlík do modelu.
+
+![vkladani spendliku](images/spendlik.png "Vkládání špendlíku")
 
 ## Jak byl model vytvořen?
 
-Autorem zdrojového dokumentu s vektorovým znakem je [tvurce.eu] (https://tvurce.eu/design-system-cr/statni-symboly-ceske-republiky-v-krivkach-ke-stazeni/)
+Autorem zdrojového dokumentu s vektorovým znakem je [tvurce.eu](https://tvurce.eu/design-system-cr/statni-symboly-ceske-republiky-v-krivkach-ke-stazeni/).
 
 Z tohoto PDF jsem pomocí slučování a odčítání objektů ve vektorovém grafickém programu extrahoval vrstvy pro všechny čtyři barvy ve formátu svg.
 SVG jsem pak po jednom nahrával do aplikace [Tinkercad](https://www.tinkercad.com/) a hned exportoval do STL.
@@ -74,12 +89,15 @@ Pro snadnou parametrizaci jsem použil Customizer, který není možné využít
 
 ### ručně:
 1. stáhněte si repositář
-2. otevřete soubor .scad
+2. otevřete soubor [znak.json](znak.scad)
 3. upravte parametry, vygenerujte STL pro jednotlivé barvy
+
+![customizer v openscadu](images/customizer.png "Customizer v OpenSCADu")
+
 
 ### poloautomaticky:
 1. stáhněte si repositář
-2. otevřete soubor .json
+2. otevřete soubor [znak.json](znak.json)
 3. upravte parametry
 4. spusťe skript generate.sh
 
