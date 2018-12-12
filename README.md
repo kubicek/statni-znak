@@ -66,7 +66,7 @@ Autorem zdrojového dokumentu s vektorovým znakem je [tvurce.eu] (https://tvurc
 
 Z tohoto PDF jsem pomocí slučování a odčítání objektů ve vektorovém grafickém programu extrahoval vrstvy pro všechny čtyři barvy ve formátu svg.
 SVG jsem pak po jednom nahrával do aplikace [Tinkercad](https://www.tinkercad.com/) a hned exportoval do STL.
-Tyto STL jsem importoval v programu OpenSCAD, kde jsou upravovány na požadovanou velikost, kompletovány a opět exportování do STL podle barev.
+Tyto STL jsem importoval v programu OpenSCAD, kde jsou upravovány na požadovanou velikost, kompletovány a opět exportovány do STL podle barev.
 
 ## Jak upravit model?
 
