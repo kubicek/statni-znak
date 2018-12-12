@@ -33,9 +33,9 @@ while [ "$1" != "" ]; do
 done
 
 
-if [ $HEIGHT != "" ] ; then PARAMS="-D height=$HEIGHT " ; fi
+if [ $HEIGHT != "" ] ; then PARAMS="-D vyska=$HEIGHT " ; fi
 
-colors=(white black red gold); for color in "${colors[@]}"
+colors=(white black red gold spendlik); for color in "${colors[@]}"
 do
  /Applications/OpenSCAD\ 2.app/Contents/MacOS/OpenSCAD --enable=customizer -o output/$color.stl -p znak.json -P $color $PARAMS znak.scad
 done

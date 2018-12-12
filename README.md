@@ -16,9 +16,9 @@ V archivu naleznete soubory pro tisk odznaku výšky 5 cm a znaků vysokých 7 c
 
 ## Jak připravit model k tisku?
 
-Pokud máte tiskárnu Prusa MK3, můžete použít připravené GCODE soubory a pokračovat částí [Jak vytisknout](#jak-tisknout)
+Pokud máte tiskárnu Prusa MK3 nebo MK25, můžete použít připravené GCODE soubory a pokračovat částí [Jak vytisknout](#jak-tisknout)
 
-Jinak si musíte poskládat model sami. Můžete použít následující postup pro Slic3r:
+Jinak si musíte poskládat model sami. Bohužel Slic3r neumí tak složité zadání z příkazové řádky, takže si musíte vše vyklikat ručně podle následujícího postupu pro Slic3r:
 
 * Nastavení tiskárny -> Obecné -> Možnosti -> Extruder: 5
 * Nastavení tiskárny -> Obecné -> Možnosti -> MultiMaterial tisk s jedním extruderem: ANO
@@ -37,9 +37,9 @@ Jinak si musíte poskládat model sami. Můžete použít následující postup 
   * red: 4
 
 Pokud tisknete odznak:
-Pomocí Load modifer přidejte soubor "top", posuňte ho na konec seznamu a nastavte mu extruder 5.
+Pomocí Load modifer přidejte soubor "spendlik", posuňte ho na konec seznamu a nastavte mu extruder 5.
 
-Otočte model o 180° kolem osy X, aby lev byl na podložce a byl zrcadlově otočený.
+Otočte model o 180° kolem osy Y, aby lev byl na podložce a byl zrcadlově otočený.
 
 ## Jak tisknout?
 

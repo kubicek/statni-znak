@@ -17,7 +17,7 @@ prumer_spendliku = 1.0;
 delka_uchyceni = 14;
 
 // jakou barvu vykreslit?
-selected_color="spendlik"; // [all, red, white, gold, black, spendlik]
+selected_color="all"; // [all, red, white, gold, black, spendlik]
 
 module customizer_stop_input_placeholder(){};
 
